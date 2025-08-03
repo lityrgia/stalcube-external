@@ -1,0 +1,233 @@
+{
+    "Minecraft": {
+      "obf": "eadg/pkk",
+      "fields": {
+        "minecraft": {
+            "obf": "cps",
+            "sig": "Leadg/pkk;"
+        },
+        "playerMP": {
+          "obf": "kcr",
+          "sig": "Lnet/minecraft/client/entity/hrk;"
+        },
+        "clientWorld": {
+          "obf": "ibu",
+          "sig": "Leadg/urn;"
+        },
+        "timer": {
+            "obf": "int",
+            "sig": "Leadg/dwv;"
+        },
+        "objectMouse": {
+            "obf": "tue",
+            "sig": "Leadg/noe;"
+        }
+      }
+    },
+    "ClientWorld": {
+        "obf": "eadg/urn",
+        "fields": {
+            "entityList": {
+                "obf": "xtj",
+                "sig": "Ljava/util/Set;"
+            }
+        }
+    },
+    "ActiveRenderInfo": {
+        "obf": "eadg/isp",
+        "fields": {
+            "modelMatrix": {
+                "obf": "ibu",
+                "sig": "Ljava/nio/FloatBuffer;"
+            },
+            "viewport": {
+                "obf": "int",
+                "sig": "Ljava/nio/IntBuffer;"
+            },
+            "projectMatrix": {
+                "obf": "ulm",
+                "sig": "Ljava/nio/FloatBuffer;"
+            }
+        }
+    },
+    "Timer": {
+        "obf": "eadg/dwv",
+        "fields": {
+            "partialTicks": {
+                "obf": "iny",
+                "sig": "F"
+            }
+        }
+    },
+    "SomeRenderElem": {
+        "obf": "eadg/efn",
+        "fields": {
+            "modelMatrix": {
+                "obf": "bbl",
+                "sig": "Ljava/nio/FloatBuffer;"
+            },
+            "mvpMatrix": {
+                "obf": "qug",
+                "sig": "[F"
+            },
+            "someRenderElem": {
+                "obf": "cps",
+                "sig": "Leadg/efn;",
+                "static": true
+            }
+        }
+    },
+    "RenderManager": {
+        "obf": "eadg/qde",
+        "fields": {
+            "pos_x": {
+                "obf": "iny",
+                "sig": "D"
+            },
+            "pos_y": {
+                "obf": "qug",
+                "sig": "D"
+            },
+            "pos_z": {
+                "obf": "cps",
+                "sig": "D"
+            }
+        }
+    },
+    "MovingObject": {
+        "obf": "eadg/noe",
+        "fields": {
+            "entityHit": {
+                "obf": "bbl",
+                "sig": "Leadg/ihr;"
+            }
+        }
+    },
+    "DataWatcher": {
+        "obf": "unknown",
+        "fields": {
+            "map": {
+                "obf": "iny",
+                "sig": "Ljava/util/Map;"
+            }
+        }
+    },
+    "BoundingBox": {
+        "obf": "eadg/cfp",
+        "fields": {
+            "minX": {
+                "obf": "hrk",
+                "sig": "D"
+            },
+            "minY": {
+                "obf": "iny",
+                "sig": "D"
+            },
+            "minZ": {
+                "obf": "qug",
+                "sig": "D"
+            },
+            "maxX": {
+                "obf": "cps",
+                "sig": "D"
+            },
+            "maxY": {
+                "obf": "tkr",
+                "sig": "D"
+            },
+            "maxZ": {
+                "obf": "bbl",
+                "sig": "D"
+            }
+        }
+    },
+    "Entity": {
+        "obf": "eadg/ihr",
+        "fields": {
+            "isDead": {
+                "obf": "hrt",
+                "sig": "Z"
+            },
+            "BoundingBox": {
+                "obf": "ksa",
+                "sig": "Leadg/cfp;"
+            },
+            "dataWatcher": {
+                "obf": "oad",
+                "sig": "Leadg/sda;"
+            },
+            "attribute": {
+                "obf": "iny",
+                "sig": "Leadg/ltk;"
+            },
+            "lastTickPosX": {
+                "obf": "xtj",
+                "sig": "D"
+            },
+            "lastTickPosY": {
+                "obf": "dfi",
+                "sig": "D"
+            },
+            "lastTickPosZ": {
+                "obf": "eeg",
+                "sig": "D"
+            },
+            "posX": {
+                "obf": "cps",
+                "sig": "D"
+            },
+            "posY": {
+                "obf": "bbl",
+                "sig": "D"
+            },
+            "posZ": {
+                "obf": "fxt",
+                "sig": "D"
+            }
+        }
+    },
+    "Attribute": {
+        "obf": "eadg/ltk",
+        "fields": {
+            "unk1": {
+                "obf": "iny",
+                "sig": "Leadg/bip;"
+            }
+        }
+    },
+    "LinkedMap": {
+        "obf": "eadg/bip",
+        "fields": {
+            "table": {
+                "obf": "jjx",
+                "sig": "Ljava/util/Map;"
+            },
+            "doubleValue": {
+                "obf": "tkr",
+                "sig": "D"
+            }
+        }
+    },
+    "EntityTroop": {
+        "obf": "eadg/tcl"
+    },
+    "EntityNPC": {
+        "obf": "eadg/mga"
+    },
+    "EntityGameItems": {
+        "obf": "eadg/qae"
+    },
+    "EntityItem": {
+        "obf": "eadg/nhr"
+    },
+    "EntityPlayer": {
+        "obf": "net/minecraft/client/entity/iny",
+        "fields": {
+            "nameClear": {
+                "obf": "nyr",
+                "sig": "Ljava/lang/String;"
+            }
+        }
+    }
+  }
+  
