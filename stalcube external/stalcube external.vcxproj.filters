@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ext\imgui\imgui.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_demo.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_draw.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_impl_dx11.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_impl_win32.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_tables.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\imgui\imgui_widgets.cpp">
+      <Filter>ext\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="memory.cpp">
+      <Filter>sdk</Filter>
+    </ClCompile>
+    <ClCompile Include="jimmy.c">
+      <Filter>ext\jimmy</Filter>
+    </ClCompile>
+    <ClCompile Include="win.c">
+      <Filter>ext\jimmy</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>main\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay.cpp">
+      <Filter>main\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Hijack Handle.cpp">
+      <Filter>sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CMinecraft.cpp">
+      <Filter>main\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassLoader.cpp">
+      <Filter>main\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CClientWorld.cpp">
+      <Filter>main\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerMP.cpp">
+      <Filter>main\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderInfo.cpp">
+      <Filter>main\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CRenderManager.cpp">
+      <Filter>main\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CEntity.cpp">
+      <Filter>main\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimer.cpp">
+      <Filter>main\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="CMovingObject.cpp">
+      <Filter>main\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>main\cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>sdk\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CDataWatcher.cpp">
+      <Filter>main\classes</Filter>
+    </ClCompile>
+    <ClCompile Include="cheat.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="uiaccess.c">
+      <Filter>sdk\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="main">
+      <UniqueIdentifier>{a0e682a6-2fd3-4203-905d-c71f475c5661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext">
+      <UniqueIdentifier>{f700664b-5355-4503-82f2-fda16d0c0fd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\imgui">
+      <UniqueIdentifier>{e94ed986-4bd1-483c-92dd-dc121eaa1418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{97cc0f00-7a5f-4742-9d30-0897c5285176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ext\jimmy">
+      <UniqueIdentifier>{2bf2e2f6-ddf9-452b-8956-cf1319421cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\classes">
+      <UniqueIdentifier>{9d6822d1-b138-49db-8310-d0d80787667b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\gui">
+      <UniqueIdentifier>{2bc2633c-5961-46cd-b307-04656491534b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk\utils">
+      <UniqueIdentifier>{af5c28a6-ee76-43a5-b4bb-92f13ddf331d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main\cheats">
+      <UniqueIdentifier>{b60da381-ce06-4766-be00-3d6973e16ecf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ext\imgui\imconfig.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_impl_dx11.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_impl_win32.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imgui_internal.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imstb_rectpack.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imstb_textedit.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\imgui\imstb_truetype.h">
+      <Filter>ext\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="jimmy.h">
+      <Filter>ext\jimmy</Filter>
+    </ClInclude>
+    <ClInclude Include="jvm.h">
+      <Filter>ext\jimmy</Filter>
+    </ClInclude>
+    <ClInclude Include="jvmwin.h">
+      <Filter>ext\jimmy</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>ext\jimmy</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts.hpp">
+      <Filter>main\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>main\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay.h">
+      <Filter>main\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Hijack Handle.h">
+      <Filter>sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CMinecraft.h">
+      <Filter>main\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassLoader.h">
+      <Filter>main\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CClientWorld.h">
+      <Filter>main\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerMP.h">
+      <Filter>main\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderInfo.h">
+      <Filter>main\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CRenderManager.h">
+      <Filter>main\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>main\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CEntity.h">
+      <Filter>main\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CMovingObject.h">
+      <Filter>main\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>main\cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>sdk\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CDataWatcher.h">
+      <Filter>main\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>ext</Filter>
+    </ClInclude>
+    <ClInclude Include="cheat.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="options.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="uiaccess.h">
+      <Filter>sdk\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
